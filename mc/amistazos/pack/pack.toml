@@ -1,0 +1,13 @@
+name = "Amistazos"
+author = "Chonk"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e17e1e2a7261ea3f9147ee5c76a21ae6db4391f9e13730691117fdbe8af7c9e8"
+
+[versions]
+forge = "14.23.5.2859"
+minecraft = "1.12.2"

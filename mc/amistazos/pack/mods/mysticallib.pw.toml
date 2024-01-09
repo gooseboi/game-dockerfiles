@@ -1,0 +1,13 @@
+name = "MysticalLib"
+filename = "mysticallib-1.12.2-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ede3c66e62b4912717a721b82e169e117ebf4b5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2912859
+project-id = 277064

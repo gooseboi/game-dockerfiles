@@ -1,0 +1,13 @@
+name = "ReAuth"
+filename = "reauth-3.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be3dedc6a808f13828373176d653d2e0bb629eeb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2560638
+project-id = 237701

@@ -1,0 +1,13 @@
+name = "Oreberries"
+filename = "oreberries-1.12.x-0.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5bbdc17c1fffa5f62e58aa54034ca9f5dd8bde5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2578045
+project-id = 275408

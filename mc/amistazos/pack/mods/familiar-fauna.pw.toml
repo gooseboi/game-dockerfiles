@@ -1,0 +1,13 @@
+name = "Familiar Fauna"
+filename = "FamiliarFauna-1.12.2-1.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e38af1ced9f5ce3f39e87b8cf79241849b52945d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2644656
+project-id = 289347
