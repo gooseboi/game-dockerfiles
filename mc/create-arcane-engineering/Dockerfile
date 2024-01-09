@@ -27,7 +27,6 @@ RUN wget -O sv.zip $modpack_server_url && \
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
-ENV JVM_OPTS=""
 VOLUME /server
 EXPOSE 25565
 
