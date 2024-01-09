@@ -24,12 +24,11 @@ RUN wget -O sv.zip $modpack_server_url && \
 	run.sh run.bat startserver.bat startserver.sh VeryMakeShiftHowTo.txt && \
 	echo "eula=true" > eula.txt
 
-VOLUME /server
-WORKDIR /server
-
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
 ENV JVM_OPTS=""
+VOLUME /server
+EXPOSE 25565
 
 CMD ["/start.sh"]
