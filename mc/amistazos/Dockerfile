@@ -12,7 +12,6 @@ RUN wget -O java.tar.gz -L $java_jdk_url && \
 	rm java.tar.gz && \
 	mv /java/jdk*/* /java && \
 	rm -rf /java/jdk*
-
 ENV PATH=/java/bin:${PATH}
 
 WORKDIR /data
@@ -26,8 +25,9 @@ RUN wget -O packwiz-installer-bootstrap.jar $packwiz_installer_bootstrap_url && 
 RUN wget -O forge-installer.jar 'https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-installer.jar' && \
 	java -jar forge-installer.jar -installServer && \
 	rm -rf forge-installer.jar forge-installer.jar.log && \
-	echo "eula=true" > eula.txt && \
-	touch user_jvm_args.txt
+	echo "eula=true" > eula.txt
+
+COPY user_jvm_args.txt user_jvm_args.txt
 
 EXPOSE 25565
 VOLUME /server
@@ -35,5 +35,4 @@ VOLUME /server
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
-# FIXME: JVM_ARGS
 ENTRYPOINT ["/start.sh"]
