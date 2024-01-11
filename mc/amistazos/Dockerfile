@@ -32,7 +32,6 @@ COPY user_jvm_args.txt user_jvm_args.txt
 EXPOSE 25565
 VOLUME /server
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
+COPY --chmod=755 start.sh /start.sh
 
 ENTRYPOINT ["/start.sh"]

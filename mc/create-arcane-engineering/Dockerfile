@@ -24,8 +24,7 @@ RUN wget -O sv.zip $modpack_server_url && \
 	run.sh run.bat startserver.bat startserver.sh VeryMakeShiftHowTo.txt && \
 	echo "eula=true" > eula.txt
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
+COPY --chmod=755 start.sh /start.sh
 
 VOLUME /server
 EXPOSE 25565
