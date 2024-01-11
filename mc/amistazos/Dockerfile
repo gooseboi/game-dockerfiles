@@ -1,9 +1,14 @@
-FROM debian:bookworm-20231218
+FROM debian:bookworm-20231218-slim
 
 ARG java_jdk_url="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u392b08.tar.gz"
 ARG packwiz_installer_bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 
-RUN apt-get update && apt-get install -y --no-install-recommends wget ca-certificates rsync && rm -f ~/.wget-hsts
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends wget ca-certificates rsync && \
+    rm -f ~/.wget-hsts && \
+    apt-get clean autoclean && \
+    apt-get autoremove --yes && \
+    rm -rf /var/lib/apt /var/lib/dpkg /var/lib/cache /var/lib/log /var/cache/debconf
 
 WORKDIR /java
 RUN wget -O java.tar.gz -L $java_jdk_url && \
