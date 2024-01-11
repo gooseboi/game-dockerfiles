@@ -1,8 +1,5 @@
 FROM debian:bookworm-20231218-slim
 
-ARG java_jdk_url="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz"
-ARG modpack_server_url="https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip"
-
 RUN apt-get update && \
     apt-get install -y --no-install-recommends wget unzip ca-certificates rsync && \
     rm -f ~/.wget-hsts && \
@@ -10,6 +7,7 @@ RUN apt-get update && \
     apt-get autoremove --yes && \
     rm -rf /var/lib/apt /var/lib/dpkg /var/lib/cache /var/lib/log /var/cache/debconf
 
+ARG java_jdk_url="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz"
 WORKDIR /java
 RUN wget -O java.tar.gz -L $java_jdk_url && \
 	tar xzvf java.tar.gz && \
@@ -19,6 +17,7 @@ RUN wget -O java.tar.gz -L $java_jdk_url && \
 
 ENV PATH=/java/bin:${PATH}
 
+ARG modpack_server_url="https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip"
 WORKDIR /data
 RUN wget -O sv.zip $modpack_server_url && \
 	unzip sv.zip && \

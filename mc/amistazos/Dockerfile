@@ -1,8 +1,5 @@
 FROM debian:bookworm-20231218-slim
 
-ARG java_jdk_url="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u392b08.tar.gz"
-ARG packwiz_installer_bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
-
 RUN apt-get update && \
     apt-get install -y --no-install-recommends wget ca-certificates rsync && \
     rm -f ~/.wget-hsts && \
@@ -10,6 +7,7 @@ RUN apt-get update && \
     apt-get autoremove --yes && \
     rm -rf /var/lib/apt /var/lib/dpkg /var/lib/cache /var/lib/log /var/cache/debconf
 
+ARG java_jdk_url="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u392b08.tar.gz"
 WORKDIR /java
 RUN wget -O java.tar.gz -L $java_jdk_url && \
 	rm -f ~/.wget-hsts && \
@@ -19,6 +17,7 @@ RUN wget -O java.tar.gz -L $java_jdk_url && \
 	rm -rf /java/jdk*
 ENV PATH=/java/bin:${PATH}
 
+ARG packwiz_installer_bootstrap_url="https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
 WORKDIR /data
 COPY pack pack
 RUN wget -O packwiz-installer-bootstrap.jar $packwiz_installer_bootstrap_url && \
