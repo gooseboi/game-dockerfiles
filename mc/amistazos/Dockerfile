@@ -1,13 +1,11 @@
-FROM debian:bookworm-20231218-slim
+FROM alpine:20231219
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends wget ca-certificates rsync && \
+# https://github.com/adoptium/containers/issues/319#issuecomment-1334960460
+RUN apk add --update wget ca-certificates openssl libgcc rsync && \
     rm -f ~/.wget-hsts && \
-    apt-get clean autoclean && \
-    apt-get autoremove --yes && \
-    rm -rf /var/lib/apt /var/lib/dpkg /var/lib/cache /var/lib/log /var/cache/debconf
+    rm -rf /var/cache/apk/*
 
-ARG java_jdk_url="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u392b08.tar.gz"
+ARG java_jdk_url="https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u392-b08/OpenJDK8U-jre_x64_alpine-linux_hotspot_8u392b08.tar.gz"
 WORKDIR /java
 RUN wget -O java.tar.gz -L $java_jdk_url && \
     rm -f ~/.wget-hsts && \

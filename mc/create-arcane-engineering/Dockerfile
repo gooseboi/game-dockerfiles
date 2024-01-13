@@ -1,13 +1,10 @@
-FROM debian:bookworm-20231218-slim
+FROM alpine:20231219
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends wget unzip ca-certificates rsync && \
+RUN apk add --update wget unzip rsync && \
     rm -f ~/.wget-hsts && \
-    apt-get clean autoclean && \
-    apt-get autoremove --yes && \
-    rm -rf /var/lib/apt /var/lib/dpkg /var/lib/cache /var/lib/log /var/cache/debconf
+    rm -rf /var/cache/apk/*
 
-ARG java_jdk_url="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jdk_x64_linux_hotspot_17.0.9_9.tar.gz"
+ARG java_jdk_url="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.9%2B9/OpenJDK17U-jre_x64_alpine-linux_hotspot_17.0.9_9.tar.gz"
 WORKDIR /java
 RUN wget -O java.tar.gz -L $java_jdk_url && \
     tar xzvf java.tar.gz && \
