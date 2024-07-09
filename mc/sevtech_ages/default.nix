@@ -66,7 +66,7 @@
     start_sh = pkgs.writeShellScriptBin "start.sh" ''
       # The chmod is because some mods always write out changes to the files
       # when the server is ran
-      rsync -rvtPLu --chmod=F644 /data/ /server
+      ${pkgs.rsync}/bin/rsync -rvtPLu --chmod=F644 /data/ /server
       cd /server
       ${temurinHeadless}/bin/java $(${pkgs.coreutils}/bin/tr '\n' ' ' < user_jvm_args.txt) -jar "forge-1.12.2-14.23.5.2860.jar" nogui
     '';
@@ -79,7 +79,7 @@
     name = "sevtech_ages";
     tag = "3.2.3";
 
-    contents = [ temurinHeadless pkgs.rsync tmpdir start_sh sevtech_ages_server ];
+    contents = [ tmpdir start_sh sevtech_ages_server ];
 
     # Nix by default has all folders have 555, but that's not right for /tmp
     extraCommands = ''
