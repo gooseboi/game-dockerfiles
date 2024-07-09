@@ -1,5 +1,17 @@
 {
   "nodes": {
+    "create_arcane_engineering_zip": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-dMj17RDekZBPpMwvJAJmUbcXCQcsYm7tP/KguRc+EQc=",
+        "type": "file",
+        "url": "https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,6 +48,7 @@
     },
     "root": {
       "inputs": {
+        "create_arcane_engineering_zip": "create_arcane_engineering_zip",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "sevtech_ages_zip": "sevtech_ages_zip"
