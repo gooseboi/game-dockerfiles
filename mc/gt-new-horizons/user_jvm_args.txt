@@ -1,6 +1,0 @@
--Xms3G
--Xmx8G
--XX:+UseStringDeduplication
--XX:+UseCompressedOops
--XX:+UseCodeCacheFlushing
--Dfml.readTimeout=180

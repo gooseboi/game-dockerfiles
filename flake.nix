@@ -2,33 +2,27 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    sevtech_ages_zip = {
-      url = "file+https://mediafilez.forgecdn.net/files/3570/46/SevTech_Ages_Server_3.2.3.zip";
-      flake = false;
-    };
-    create_arcane_engineering_zip = {
-      url = "file+https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip";
-      flake = false;
-    };
-    dawncraft_zip = {
-      url = "file+https://mediafilez.forgecdn.net/files/5503/606/DawnCraft%202.0.11_f%20Serverpack.zip";
-      flake = false;
-    };
   };
-  outputs = { self, nixpkgs, flake-utils, sevtech_ages_zip, create_arcane_engineering_zip, dawncraft_zip }:
+  outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
+        mcImageBuilder = import ./mc/builders/forge_bundled.nix;
       in {
         packages = {
-          sevtech_ages = import ./mc/sevtech_ages {
-            inherit pkgs sevtech_ages_zip;
+          sevtechAges = import ./mc/sevtech_ages {
+            inherit pkgs;
+            imageBuilder = mcImageBuilder;
           };
-          create_arcane_engineering = import ./mc/create_arcane_engineering {
-            inherit pkgs create_arcane_engineering_zip;
+
+          createArcaneEngineering = import ./mc/create_arcane_engineering {
+            inherit pkgs;
+            imageBuilder = mcImageBuilder;
           };
+
           dawncraft = import ./mc/dawncraft {
-            inherit pkgs dawncraft_zip;
+            inherit pkgs;
+            imageBuilder = mcImageBuilder;
           };
         };
       }
