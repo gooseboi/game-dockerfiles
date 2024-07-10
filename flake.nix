@@ -10,8 +10,12 @@
       url = "file+https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip";
       flake = false;
     };
+    dawncraft_zip = {
+      url = "file+https://mediafilez.forgecdn.net/files/5503/606/DawnCraft%202.0.11_f%20Serverpack.zip";
+      flake = false;
+    };
   };
-  outputs = { self, nixpkgs, flake-utils, sevtech_ages_zip, create_arcane_engineering_zip }:
+  outputs = { self, nixpkgs, flake-utils, sevtech_ages_zip, create_arcane_engineering_zip, dawncraft_zip }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
@@ -22,6 +26,9 @@
           };
           create_arcane_engineering = import ./mc/create_arcane_engineering {
             inherit pkgs create_arcane_engineering_zip;
+          };
+          dawncraft = import ./mc/dawncraft {
+            inherit pkgs dawncraft_zip;
           };
         };
       }

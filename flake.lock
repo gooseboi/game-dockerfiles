@@ -12,6 +12,18 @@
         "url": "https://mediafilez.forgecdn.net/files/4852/56/CAEServer1.9.zip"
       }
     },
+    "dawncraft_zip": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-AitwlgT4XHJVck/Ifm9DSkxHA/ILUcfMQSrc8d2hD2g=",
+        "type": "file",
+        "url": "https://mediafilez.forgecdn.net/files/5503/606/DawnCraft%202.0.11_f%20Serverpack.zip"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://mediafilez.forgecdn.net/files/5503/606/DawnCraft%202.0.11_f%20Serverpack.zip"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -49,6 +61,7 @@
     "root": {
       "inputs": {
         "create_arcane_engineering_zip": "create_arcane_engineering_zip",
+        "dawncraft_zip": "dawncraft_zip",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "sevtech_ages_zip": "sevtech_ages_zip"
