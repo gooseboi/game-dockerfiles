@@ -24,6 +24,10 @@
             inherit pkgs;
             imageBuilder = mcImageBuilder;
           };
+          bmc4 = import ./mc/bettermc_4 {
+            inherit pkgs;
+            imageBuilder = mcImageBuilder;
+          };
         };
       }
     );
