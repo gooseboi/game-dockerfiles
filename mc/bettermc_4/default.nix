@@ -1,6 +1,6 @@
-{ pkgs, imageBuilder }:
+{ pkgs, imageBuilder, isNow ? false }:
     imageBuilder {
-      inherit pkgs;
+      inherit pkgs isNow;
       packInfo = {
         name = "Better MC - BMC4";
         imageName = "bmc4";

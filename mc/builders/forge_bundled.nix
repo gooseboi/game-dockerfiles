@@ -1,4 +1,4 @@
-{ pkgs, packInfo, forgeInfo, mcVersion, javaVersion, filesToRemove }:
+{ pkgs, packInfo, forgeInfo, mcVersion, javaVersion, filesToRemove, isNow ? false }:
   let
     mkDerivation = pkgs.stdenv.mkDerivation;
 
@@ -137,6 +137,9 @@
   pkgs.dockerTools.buildLayeredImage {
     name = packInfo.imageName;
     tag = packInfo.version;
+
+    created = if isNow then "now" else "1970-01-01T00:00:01Z";
+
 
     contents = [ tmpdir start_sh server ];
 
