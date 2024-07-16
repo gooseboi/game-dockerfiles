@@ -36,15 +36,9 @@
     serverDeps = if forgeInfo.includesInstaller
       then mkDerivation (finalAttrs:
         {
-          # The point of including the forge version into this is so that if
-          # the forge version changes, then the derivations name is different,
-          # and thus another one has to be rebuilt.
-          #
-          # TODO:
-          # Arguably, since the server deps are only those of forge, this
-          # derivation should be independent of the modpack, which allows not
-          # having to rebuild the same forge version for different modpacks.
-          name = "${packFullname} Forge-${forgeInfo.version} server runtime dependencies";
+          pname = "mc-forge-deps";
+          version = forgeInfo.version;
+
           nativeBuildInputs = [ pkgs.unzip temurinHeadless ];
 
           src = packFile;
@@ -62,15 +56,9 @@
           outputHash = forgeInfo.depsHash;
         })
       else mkDerivation {
-          # The point of including the forge version into this is so that if
-          # the forge version changes, then the derivations name is different,
-          # and thus another one has to be rebuilt.
-          #
-          # TODO:
-          # Arguably, since the server deps are only those of forge, this
-          # derivation should be independent of the modpack, which allows not
-          # having to rebuild the same forge version for different modpacks.
-          name = "${packFullname} Forge-${forgeInfo.version} server runtime dependencies";
+          pname = "mc-forge-deps";
+          version = forgeInfo.version;
+
           nativeBuildInputs = [ temurinHeadless ];
 
           dontUnpack = true;
