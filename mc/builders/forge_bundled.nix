@@ -36,7 +36,15 @@
     serverDeps = if forgeInfo.includesInstaller
       then mkDerivation (finalAttrs:
         {
-          name = "${packFullname} server runtime dependencies";
+          # The point of including the forge version into this is so that if
+          # the forge version changes, then the derivations name is different,
+          # and thus another one has to be rebuilt.
+          #
+          # TODO:
+          # Arguably, since the server deps are only those of forge, this
+          # derivation should be independent of the modpack, which allows not
+          # having to rebuild the same forge version for different modpacks.
+          name = "${packFullname} Forge-${forgeInfo.version} server runtime dependencies";
           nativeBuildInputs = [ pkgs.unzip temurinHeadless ];
 
           src = packFile;
@@ -53,9 +61,16 @@
           outputHashMode = "recursive";
           outputHash = forgeInfo.depsHash;
         })
-      else mkDerivation (finalAttrs:
-        {
-          name = "${packFullname} server runtime dependencies";
+      else mkDerivation {
+          # The point of including the forge version into this is so that if
+          # the forge version changes, then the derivations name is different,
+          # and thus another one has to be rebuilt.
+          #
+          # TODO:
+          # Arguably, since the server deps are only those of forge, this
+          # derivation should be independent of the modpack, which allows not
+          # having to rebuild the same forge version for different modpacks.
+          name = "${packFullname} Forge-${forgeInfo.version} server runtime dependencies";
           nativeBuildInputs = [ temurinHeadless ];
 
           dontUnpack = true;
@@ -72,8 +87,7 @@
           outputHashAlgo = "sha256";
           outputHashMode = "recursive";
           outputHash = forgeInfo.depsHash;
-        }
-      );
+        };
 
     fileRemoveList = pkgs.lib.lists.forEach filesToRemove (f: pkgs.lib.strings.concatStrings (pkgs.lib.strings.intersperse " " [ "rm" "-f" f ]));
     fileRemoveStr = pkgs.lib.strings.concatStrings (pkgs.lib.strings.intersperse "\n" fileRemoveList);
