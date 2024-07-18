@@ -7,28 +7,16 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = import nixpkgs { inherit system; };
-        mcImageBuilder = import ./mc/builders/forge_bundled.nix;
+
+        forgeImageBuilder = import ./mc/builders/forge_bundled.nix;
+        forgeBundledImage = fname: import fname { inherit pkgs; imageBuilder = forgeImageBuilder; };
       in {
         packages = {
-          sevtechAges = import ./mc/sevtech_ages {
-            inherit pkgs;
-            imageBuilder = mcImageBuilder;
-          };
-
-          createArcaneEngineering = import ./mc/create_arcane_engineering {
-            inherit pkgs;
-            imageBuilder = mcImageBuilder;
-          };
-
-          dawncraft = import ./mc/dawncraft {
-            inherit pkgs;
-            imageBuilder = mcImageBuilder;
-          };
-
-          bmc4 = import ./mc/bettermc_4 {
-            inherit pkgs;
-            imageBuilder = mcImageBuilder;
-          };
+          # Modpacks
+          sevtechAges = forgeBundledImage ./mc/sevtech_ages;
+          createArcaneEngineering = forgeBundledImage ./mc/create_arcane_engineering;
+          dawncraft = forgeBundledImage ./mc/dawncraft;
+          bmc4 = forgeBundledImage ./mc/bettermc_4;
         };
       }
     );
