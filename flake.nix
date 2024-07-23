@@ -17,6 +17,7 @@
           createArcaneEngineering = forgeBundledImage ./mc/create_arcane_engineering;
           dawncraft = forgeBundledImage ./mc/dawncraft;
           bmc4 = forgeBundledImage ./mc/bettermc_4;
+          bmc4Patch = forgeBundledImage ./mc/bettermc_4_patch;
         };
       }
     );

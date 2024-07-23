@@ -1,4 +1,4 @@
-{ pkgs, packInfo, forgeInfo, mcVersion, javaVersion, filesToRemove, isNow ? false }:
+{ pkgs, packInfo, forgeInfo, mcVersion, javaVersion, filesToRemove, isNow ? false, fixup ? null }:
   let
     mkDerivation = pkgs.stdenv.mkDerivation;
 
@@ -102,6 +102,7 @@
           ${fileRemoveStr}
           echo "eula=true" > eula.txt
           cp ${forgeInfo.userJvmArgsPath} user_jvm_args.txt
+          ${fixup}
         '';
 
         installPhase = ''
