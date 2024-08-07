@@ -11,12 +11,9 @@
         forgeImageBuilder = import ./mc/builders/forge_bundled.nix;
         forgeBundledImage = fname: import fname { inherit pkgs; imageBuilder = forgeImageBuilder; };
 
-        vanillaBuilder = import ./mc/builders/forge_bundled.nix;
+        vanillaImages = import ./mc/vanilla { inherit pkgs; };
       in {
-        packages = {
-          # Vanilla
-          # vanilla_1_21 = vanillaBuilder
-
+        packages = vanillaImages // {
           # Modpacks
           sevtechAges = forgeBundledImage ./mc/modded/sevtech_ages;
           createArcaneEngineering = forgeBundledImage ./mc/modded/create_arcane_engineering;
