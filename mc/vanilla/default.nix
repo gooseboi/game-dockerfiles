@@ -1,4 +1,4 @@
-{ pkgs, isNow ? false}:
+{ pkgs, isNow ? false }:
   let
     lib = pkgs.lib;
     versions = lib.importJSON ./versions.json;
@@ -10,7 +10,7 @@
       name = "vanilla${escapeVersion version}";
       value = builder {
         inherit pkgs isNow;
-        userJvmArgsPath = ./user_jvm_args.txt;
+        userJvmArgsPath = ./. + "/user_jvm_args_${value.javaVersion}.txt";
         serverUrl = value.url;
         serverSha256 = value.sha256;
         mcVersion = version;
