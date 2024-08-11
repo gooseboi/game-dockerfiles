@@ -1,524 +1,442 @@
 {
   "1.21": {
-    "url": "",
-    "hash": "",
-    "mcVersion": 0
-    "javaVersion": 0,
+    "url": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar",
+    "sha256": "sha256-yWOU2ob52fnvfKLS7h8vCYDCm3qlyUtDwCxQQ1289T8=",
+    "javaVersion": "21"
   },
   "1.20.6": {
-    "url": "",
-    "hash": "",
-    "mcVersion": 0
-    "javaVersion": 0,
+    "url": "https://piston-data.mojang.com/v1/objects/145ff0858209bcfc164859ba735d4199aafa1eea/server.jar",
+    "sha256": "sha256-xtAdAYynguUG8OxgZS1H/VZQeL6RIrYlwWgbyGwpx+w=",
+    "javaVersion": "21"
   },
   "1.20.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/79493072f65e17243fd36a699c9a96b4381feb91/server.jar",
+    "sha256": "sha256-+Pajj+3twS1rusIeU0HBaKfJv075AZP88KvME2bEK6w=",
+    "javaVersion": "17"
   },
   "1.20.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar",
+    "sha256": "sha256-wD+m852qad30E8llo6gwhNt0anoTjOU1ppMpO1Ry02M=",
+    "javaVersion": "17"
   },
   "1.20.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/4fb536bfd4a83d61cdbaf684b8d311e66e7d4c49/server.jar",
+    "sha256": "sha256-Nu2JvpPxggNN8GeLzpV7VELwxpBfQelP9qBSGy4Ti64=",
+    "javaVersion": "17"
   },
   "1.20.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar",
+    "sha256": "sha256-Ha7kg4VprUbkHwpvRZaExQDH8mhTVqQM+36DjW546ug=",
+    "javaVersion": "17"
   },
   "1.20.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar",
+    "sha256": "sha256-Ovc6ncWhAuOBR5RjYN0n1NcLrnBVv5HPIVHNXRIbeeA=",
+    "javaVersion": "17"
   },
   "1.20": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar",
+    "sha256": "sha256-/0HFQs7Bgs50UIpeQhlOD0AJNB3nXwp793DRjPcB1Ws=",
+    "javaVersion": "17"
   },
   "1.19.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar",
+    "sha256": "sha256-pSShDaVQdBeFyMOg+zkEfxBrDHws+iVegnjLbxq+P1M=",
+    "javaVersion": "17"
   },
   "1.19.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar",
+    "sha256": "sha256-Tr060UJRKVPQGTrjodGjDIlpB958aHgJdxUfbMefHhs=",
+    "javaVersion": "17"
   },
   "1.19.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar",
+    "sha256": "sha256-smcnBp719hxwSt2aN4rJDj0nH9eHbAvT3Pvp/QvsTZY=",
+    "javaVersion": "17"
   },
   "1.19.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/8399e1211e95faa421c1507b322dbeae86d604df/server.jar",
+    "sha256": "sha256-8VuTwlrHNDro2254g6l/EXd7qu6STno8eu7YJrFVsjM=",
+    "javaVersion": "17"
   },
   "1.19": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/e00c4052dac1d59a1188b2aa9d5a87113aaf1122/server.jar",
+    "sha256": "sha256-3u/QVvDPicPX/UjQP1aopzlDWG6MBh/avQ/ZLTLO0rI=",
+    "javaVersion": "17"
   },
   "1.18.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar",
+    "sha256": "sha256-V76dHjWqkc/fokattjoOoRqUYIHgRk0IvD02ZRcYo0M=",
+    "javaVersion": "17"
   },
   "1.18.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar",
+    "sha256": "sha256-680SCtgUgLlopUjfb/uDuIB16VGVyP9j1GHJ3031298=",
+    "javaVersion": "17"
   },
   "1.18": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar",
+    "sha256": "sha256-hBftzrRxs4pZps4mDzqhR56VJko461YoO98k7Jhkfm8=",
+    "javaVersion": "17"
   },
   "1.17.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar",
+    "sha256": "sha256-6MIRtBMXqfWngMmKiVkuy3LrOabkddSsllflvJ/69V8=",
+    "javaVersion": "17"
   },
   "1.17": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar",
+    "sha256": "sha256-ezkNjZ9rVkmyJtgmhq7H8RvZqkQwu1yskHL/0y88H0s=",
+    "javaVersion": "17"
   },
   "1.16.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar",
+    "sha256": "sha256-WPMpx9JpZSb5SEcKpv0LRVRQObZMt1AV5kwSGUs3PaY=",
+    "javaVersion": "8"
   },
   "1.16.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar",
+    "sha256": "sha256-RE0w2QOh70ibZze7nQIUlPryNDTKhWj9cs4uPUCzJQY=",
+    "javaVersion": "8"
   },
   "1.16.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar",
+    "sha256": "sha256-MuRQ50wIGuwG3Put+lupqhx/NwvYaeZYyuwMMAT3rVs=",
+    "javaVersion": "8"
   },
   "1.16.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar",
+    "sha256": "sha256-KQLtP/hOT4EKLAYgxrbfnD74SIsnLGEnTV6sJDOHbzk=",
+    "javaVersion": "8"
   },
   "1.16.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar",
+    "sha256": "sha256-J4LVR3JLw//A726XsnkOdcHfiSQfnUZFtYxwb15sk1s=",
+    "javaVersion": "8"
   },
   "1.16": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/a0d03225615ba897619220e256a266cb33a44b6b/server.jar",
+    "sha256": "sha256-fS0tEnuQuvK9j8YQksv/Qr6hvfrjCig49F7bMSlJebk=",
+    "javaVersion": "8"
   },
   "1.15.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar",
+    "sha256": "sha256-gM+G3CAE7GotwBg9HHWprzugZp98My5CR6+x12+2foo=",
+    "javaVersion": "8"
   },
   "1.15.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar",
+    "sha256": "sha256-oMBiaGvuWpLWCALKdNGYVISBgCGTpw3abV/n7LcgeZM=",
+    "javaVersion": "8"
   },
   "1.15": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/e9f105b3c5c7e85c7b445249a93362a22f62442d/server.jar",
+    "sha256": "sha256-4P4XSSY7XsIRs1i1mLRueHZFv/qEEUFPDIEqkr3HDIQ=",
+    "javaVersion": "8"
   },
   "1.14.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/3dc3d84a581f14691199cf6831b71ed1296a9fdf/server.jar",
+    "sha256": "sha256-Xs3tqzpuEpMhpERJDQpGfCXqcCokqZzr47au1B+PVyk=",
+    "javaVersion": "8"
   },
   "1.14.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar",
+    "sha256": "sha256-lCJW8L/sQPIzGxsMVdemg7hu5A5R+lAKKqds8fEEGzg=",
+    "javaVersion": "8"
   },
   "1.14.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar",
+    "sha256": "sha256-tH/YUVWud8K8WeYqIVMQxNzofH3991iDhZc/og/0ZVs=",
+    "javaVersion": "8"
   },
   "1.14.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar",
+    "sha256": "sha256-+CLwtzC34fBfyoQkimhzQAusTKRJ/2dipVyrPWix8D4=",
+    "javaVersion": "8"
   },
   "1.14": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/f1a0073671057f01aa843443fef34330281333ce/server.jar",
+    "sha256": "sha256-Zx49M03WAcUgvxrrluSQOBRRcr7xa8bEGOlp/Yv4/2w=",
+    "javaVersion": "8"
   },
   "1.13.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar",
+    "sha256": "sha256-/9OqLCXFuminBrWfKr3GmsF0jhFcqdO0eUHhl3NvCI4=",
+    "javaVersion": "8"
   },
   "1.13.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/fe123682e9cb30031eae351764f653500b7396c9/server.jar",
+    "sha256": "sha256-LqYEfnZRxCkig0Cs19HjX09sevQvWfkrCxzUdlYSU9E=",
+    "javaVersion": "8"
   },
   "1.13": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/d0caafb8438ebd206f99930cfaecfa6c9a13dca0/server.jar",
+    "sha256": "sha256-5285J5BNMxyWmixDfVZhrALyS+hgYt0cYHv9Tr3FULk=",
+    "javaVersion": "8"
   },
   "1.12.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
+    "sha256": "sha256-/h+SdOba2Rkb9ubo427m68c383NgPfCUaq/N7Q1TFn4=",
+    "javaVersion": "8"
   },
   "1.12.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/561c7b2d54bae80cc06b05d950633a9ac95da816/server.jar",
+    "sha256": "sha256-hIkSZAvM+n6jSizBx2yys1+EZ8QhbZYDkXyZFmD5Gos=",
+    "javaVersion": "8"
   },
   "1.12": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/8494e844e911ea0d63878f64da9dcc21f53a3463/server.jar",
+    "sha256": "sha256-/uv/ODTkHMCWUiUlcH0t0nrcJDGx8xRbnQzPxMij3Ak=",
+    "javaVersion": "8"
   },
   "1.11.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/f00c294a1576e03fddcac777c3cf4c7d404c4ba4/server.jar",
+    "sha256": "sha256-3sR9NrQp/QUHa5Cx9CwqJROLw5IEqlG5Z07yqY1k2Io=",
+    "javaVersion": "8"
   },
   "1.11.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/1f97bd101e508d7b52b3d6a7879223b000b5eba0/server.jar",
+    "sha256": "sha256-gAK8Mv26Ib9z+jDZRSSwyCO/clbpxxWY0vGPsxnnLJg=",
+    "javaVersion": "8"
   },
   "1.11": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/48820c84cb1ed502cb5b2fe23b8153d5e4fa61c0/server.jar",
+    "sha256": "sha256-MneWX9g9JpRN+9G5dA2VzyBphdozChs3M4aOTefcb4M=",
+    "javaVersion": "8"
   },
   "1.10.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/3d501b23df53c548254f5e3f66492d178a48db63/server.jar",
+    "sha256": "sha256-GV9GgifF+SGPORlTi5sWujStztZ/x9e2UsUIpejQeiE=",
+    "javaVersion": "8"
   },
   "1.10.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/cb4c6f9f51a845b09a8861cdbe0eea3ff6996dee/server.jar",
+    "sha256": "sha256-YjyNZ+c1fHB48wzuRQVixSoFpCw5TwZEdMfy1FtKfT8=",
+    "javaVersion": "8"
   },
   "1.10": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/a96617ffdf5dabbb718ab11a9a68e50545fc5bee/server.jar",
+    "sha256": "sha256-3USnLpIKAd7fV1B7c2QvSp3YxgUuH0L/bMBjUAgBQgE=",
+    "javaVersion": "8"
   },
   "1.9.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/edbb7b1758af33d365bf835eb9d13de005b1e274/server.jar",
+    "sha256": "sha256-E/6nqhDYBN0U7X694kk9xkx9PIFzNpMJvX9upMDqQK0=",
+    "javaVersion": "8"
   },
   "1.9.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/8e897b6b6d784f745332644f4d104f7a6e737ccf/server.jar",
+    "sha256": "sha256-DrZp7sojutbU7lI3qiTNUSdN+9oVgTR3+EFPS/wvHyc=",
+    "javaVersion": "8"
   },
   "1.9.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/2b95cc7b136017e064c46d04a5825fe4cfa1be30/server.jar",
+    "sha256": "sha256-qXLRJ747nV+v5b1hChc1Y8skMxtmZKPcX3OzzHbXcIE=",
+    "javaVersion": "8"
   },
   "1.9.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/bf95d9118d9b4b827f524c878efd275125b56181/server.jar",
+    "sha256": "sha256-/MU5PBka+8wLcGvZRhb7Fx4vraoQej5fNimO0qv3bEE=",
+    "javaVersion": "8"
   },
   "1.9": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://piston-data.mojang.com/v1/objects/b4d449cf2918e0f3bd8aa18954b916a4d1880f0d/server.jar",
+    "sha256": "sha256-OKeX9Qxx9VIC4hNaMDAs86XIy0lMbSJbiFmVQpV9On0=",
+    "javaVersion": "8"
   },
   "1.8.9": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar",
+    "sha256": "sha256-wY5CRQc6r/WA63NZkC8CUUNlaLFkep5EOpJM23P6gxI=",
+    "javaVersion": "8"
   },
   "1.8.8": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/5fafba3f58c40dc51b5c3ca72a98f62dfdae1db7/server.jar",
+    "sha256": "sha256-Oa73INxTCUdvVvLpalFvPdMEG7v0Qsv9R9Y6y9Bq8x4=",
+    "javaVersion": "8"
   },
   "1.8.7": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/35c59e16d1f3b751cd20b76b9b8a19045de363a9/server.jar",
+    "sha256": "sha256-XPSkl2LJlslPa4sRnxyAtN48ErL1xTJogBkFu32qBkQ=",
+    "javaVersion": "8"
   },
   "1.8.6": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/2bd44b53198f143fb278f8bec3a505dad0beacd2/server.jar",
+    "sha256": "sha256-f8ZrK1Tw9NZf3W1khKUPQywUTvAgctNDXVZg8SD1jg0=",
+    "javaVersion": "8"
   },
   "1.8.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/ea6dd23658b167dbc0877015d1072cac21ab6eee/server.jar",
+    "sha256": "sha256-akEuiQCaz81cVghN2rT5Z2xVYbtYo/ItXqS6SsXTUD4=",
+    "javaVersion": "8"
   },
   "1.8.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/dd4b5eba1c79500390e0b0f45162fa70d38f8a3d/server.jar",
+    "sha256": "sha256-OUqdDVvNAycqWPA2uHNqR9JtY7RaTnyCBikRSHbnIQc=",
+    "javaVersion": "8"
   },
   "1.8.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/163ba351cb86f6390450bb2a67fafeb92b6c0f2f/server.jar",
+    "sha256": "sha256-omdRsYzMgM7vSI2mRcO3hapSjiriCmptvUb23HVOYr0=",
+    "javaVersion": "8"
   },
   "1.8.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar",
+    "sha256": "sha256-2Z87NHgBjLRU++42/WDjxKy+ETLxyyazZX+a0pHnA1w=",
+    "javaVersion": "8"
   },
   "1.8.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/68bfb524888f7c0ab939025e07e5de08843dac0f/server.jar",
+    "sha256": "sha256-719aGhp4CHhZsYFTrPl+/G7LElQKwI2CuclQJCSbmEU=",
+    "javaVersion": "8"
   },
   "1.8": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/a028f00e678ee5c6aef0e29656dca091b5df11c7/server.jar",
+    "sha256": "sha256-QOI/OCPW8OPLrcSRzttVuLpT+KtRa2gYLd0VNrq+spE=",
+    "javaVersion": "8"
   },
   "1.7.10": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar",
+    "sha256": "sha256-xwhw8AxAJNgp4VT35fTohbAt2HmRcmozCNgfUTly8/w=",
+    "javaVersion": "8"
   },
   "1.7.9": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/4cec86a928ec171fdc0c6b40de2de102f21601b5/server.jar",
+    "sha256": "sha256-97kVDQXCz4xIVBUn3jEFV+a9m95z6KyUeej/5yLGCiE=",
+    "javaVersion": "8"
   },
   "1.7.8": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/c69ebfb84c2577661770371c4accdd5f87b8b21d/server.jar",
+    "sha256": "sha256-WQfvEQOs8VlS1tUM3j2wHk/FqVufX+wL4l+lal7w0SE=",
+    "javaVersion": "8"
   },
   "1.7.7": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/a6ffc1624da980986c6cc12a1ddc79ab1b025c62/server.jar",
+    "sha256": "sha256-dGRviO122HjqrysoxOvUBDuxElWZnjiTRdxV0vEcGaY=",
+    "javaVersion": "8"
   },
   "1.7.6": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/41ea7757d4d7f74b95fc1ac20f919a8e521e910c/server.jar",
+    "sha256": "sha256-XNxqthaK5JbOHRrpbAsWU2AYRRjQMEF0Kex2h8C51Sc=",
+    "javaVersion": "8"
   },
   "1.7.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/e1d557b2e31ea881404e41b05ec15c810415e060/server.jar",
+    "sha256": "sha256-yqnhOu4yESs7UwXALswBwFUC/iRM24P6p6AYMpN1QuQ=",
+    "javaVersion": "8"
   },
   "1.7.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/61220311cef80aecc4cd8afecd5f18ca6b9461ff/server.jar",
+    "sha256": "sha256-eW1sooOGGjGF8uh+wyGxIzVAzfJjjabgDx2W1HeRAx8=",
+    "javaVersion": "8"
   },
   "1.7.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/707857a7bc7bf54fe60d557cca71004c34aa07bb/server.jar",
+    "sha256": "sha256-AnsL8CeRDZ7TxJ/2Q+6B+odelQUs1mq3ZIqeYClz8mY=",
+    "javaVersion": "8"
   },
   "1.7.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/3716cac82982e7c2eb09f83028b555e9ea606002/server.jar",
+    "sha256": "sha256-tBOYmXAMG9v3KIDuxL255Gws8i0XJKSKAY7gMwA1Ri4=",
+    "javaVersion": "8"
   },
   "1.6.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/050f93c1f3fe9e2052398f7bd6aca10c63d64a87/server.jar",
+    "sha256": "sha256-gYQaL+3+DOGZgxVqBvpSlDNShL7rlcjKhy08Gl/PV3Q=",
+    "javaVersion": "8"
   },
   "1.6.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/5a4c69bdf7c4a9aa9580096805d8497ba7721e05/server.jar",
+    "sha256": "sha256-Wns/TsJYtVyOT+uVbXhhtIUBphphj1xklfyGrkmF8OA=",
+    "javaVersion": "8"
   },
   "1.6.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/0252918a5f9d47e3c6eb1dfec02134d1374a89b4/server.jar",
+    "sha256": "sha256-1YpswHMFvDvDkV/YqBzrB7pL7eMRHJcRFYFXieVnRhE=",
+    "javaVersion": "8"
   },
   "1.5.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/f9ae3f651319151ce99a0bfad6b34fa16eb6775f/server.jar",
+    "sha256": "sha256-Twx7ecorEHFnA0NlUPdfoU54S5mXB/+tDqTpw4zCVqA=",
+    "javaVersion": "8"
   },
   "1.5.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/d07c71ee2767dabb79fb32dad8162e1b854d5324/server.jar",
+    "sha256": "sha256-6NxgyTmS5JXDqebax1F+aBGveoA6NBnupQ3Hjpf1Epc=",
+    "javaVersion": "8"
   },
   "1.4.7": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
-  },
-  "1.4.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/2f0ec8efddd2f2c674c77be9ddb370b727dec676/server.jar",
+    "sha256": "sha256-lrdRKurS+yDd94DX3XQgjXfyCeFgWOqJRBUBeeZbTdM=",
+    "javaVersion": "8"
   },
   "1.4.6": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar",
+    "sha256": "sha256-kLO5zUZqvNbtnpMuG4H440xXcfU2Zw7ZrEkxiLAhAAs=",
+    "javaVersion": "8"
+  },
+  "1.4.5": {
+    "url": "https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar",
+    "sha256": "sha256-uK+HHWsKA90v5l7pI4u1LGDdXjDT3tDzep64YOXfIG0=",
+    "javaVersion": "8"
   },
   "1.4.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/4215dcadb706508bf9d6d64209a0080b9cee9e71/server.jar",
+    "sha256": "sha256-LqRuJMPCkx284R5Neag2aM1vACtb/hMWRamOzgmUMKM=",
+    "javaVersion": "8"
+  },
+  "1.4.3": {
+    "url": "https://launcher.mojang.com/v1/objects/9be68adf6e80721975df12f2445fa24617328d18/server.jar",
+    "sha256": "sha256-KDwV4latR3aQbmgy3pDOzJpf0sKGUcaAACTDvJD1+f4=",
+    "javaVersion": "8"
   },
   "1.4.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/5be700523a729bb78ef99206fb480a63dcd09825/server.jar",
+    "sha256": "sha256-FrxzBSMdXOuouB5DzKi9zRnMbZKkiO0nC6pauCew+kA=",
+    "javaVersion": "8"
   },
   "1.3.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/3de2ae6c488135596e073a9589842800c9f53bfe/server.jar",
+    "sha256": "sha256-B5XgmNlwtFmDJ1DUxsLE9Y71WjM6ZygUGDGCdeYCbro=",
+    "javaVersion": "8"
   },
   "1.3.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/82563ce498bfc1fc8a2cb5bf236f7da86a390646/server.jar",
+    "sha256": "sha256-YrjIo2kftfUa871+/DTRvFoifmFiBy6YJ/Q5dE35lPI=",
+    "javaVersion": "8"
   },
   "1.2.5": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://launcher.mojang.com/v1/objects/d8321edc9470e56b8ad5c67bbd16beba25843336/server.jar",
+    "sha256": "sha256-GShdfRau50D1oFhPDYCklA8nOpf1o+ryUfwcbD8pgtE=",
+    "javaVersion": "8"
   },
   "1.2.4": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://files.betacraft.uk/server-archive/release/1.2/1.2.4.jar",
+    "sha256": "sha256-a25M3USLs/XIlDtfysK7vQzrcW9cc96vKIihNm0lOco=",
+    "javaVersion": "8"
   },
   "1.2.3": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://files.betacraft.uk/server-archive/release/1.2/1.2.3.jar",
+    "sha256": "sha256-clH+rnUnVp3hXrEOeYOdLSVP5QldD+RtKQNPyQo1FNE=",
+    "javaVersion": "8"
   },
   "1.2.2": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
-  },
-  "1.2.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://files.betacraft.uk/server-archive/release/1.2/1.2.2.jar",
+    "sha256": "sha256-VaJykk1SvW7Tr4UqOwF9Lk24dgk57enIcGf1GAR3GOw=",
+    "javaVersion": "8"
   },
   "1.1": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://files.betacraft.uk/server-archive/release/1.1/1.1.jar",
+    "sha256": "sha256-lt4PzH+ekNMkiK5nEMqqmj/pRYTspufGsTot8HB0GeE=",
+    "javaVersion": "8"
+  },
+  "1.0.1": {
+    "url": "https://files.betacraft.uk/server-archive/release/1.0/1.0.1.jar",
+    "sha256": "sha256-mFxaqs8aJ64VeaQRkNLs/wAHuGnOaLV9iTpsZhPuJhg=",
+    "javaVersion": "8"
   },
   "1.0": {
-    "url": "",
-    "sha256": "",
-    "mcVersion": 0,
-    "javaVersion": 0
+    "url": "https://files.betacraft.uk/server-archive/release/1.0/1.0.0.jar",
+    "sha256": "sha256-sBz2MizjwL1XMxTMXaObhGxsKgSfPiDrLNGc5yIDmTs=",
+    "javaVersion": "8"
   }
 }
