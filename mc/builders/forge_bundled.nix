@@ -79,6 +79,7 @@
 
     fileRemoveList = pkgs.lib.lists.forEach filesToRemove (f: pkgs.lib.strings.concatStrings (pkgs.lib.strings.intersperse " " [ "rm" "-f" f ]));
     fileRemoveStr = pkgs.lib.strings.concatStrings (pkgs.lib.strings.intersperse "\n" fileRemoveList);
+    fixupStr = if !builtins.isNull fixup then fixup else "";
     # Copy the server deps and remove unnecessary files
     server = mkDerivation (finalAttrs:
       {
@@ -102,7 +103,7 @@
           ${fileRemoveStr}
           echo "eula=true" > eula.txt
           cp ${forgeInfo.userJvmArgsPath} user_jvm_args.txt
-          ${fixup}
+          ${fixupStr}
         '';
 
         installPhase = ''
