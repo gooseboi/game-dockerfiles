@@ -1,0 +1,86 @@
+{
+  "1.4.4.9": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1449.zip",
+    "sha256": "sha256-Mk+5s9OlkyTLXZYVT0+8Qcjy2Sb5uy2hcC8CML0biNY="
+  },
+  "1.4.4.8.1": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-14481.zip",
+    "sha256": ""
+  },
+  "1.4.4.8": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1448.zip",
+    "sha256": ""
+  },
+  "1.4.4.7": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1447.zip",
+    "sha256": ""
+  },
+  "1.4.4.6": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1446.zip",
+    "sha256": ""
+  },
+  "1.4.4.5": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1445.zip",
+    "sha256": ""
+  },
+  "1.4.4.4": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1444.zip",
+    "sha256": ""
+  },
+  "1.4.4.3": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1443.zip",
+    "sha256": ""
+  },
+  "1.4.4.2": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1442.zip",
+    "sha256": ""
+  },
+  "1.4.4.1": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1441.zip",
+    "sha256": ""
+  },
+  "1.4.4": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-144.zip",
+    "sha256": ""
+  },
+  "1.4.3.6": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1436.zip",
+    "sha256": ""
+  },
+  "1.4.3.5": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1435.zip",
+    "sha256": ""
+  },
+  "1.4.3.4": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1434.zip",
+    "sha256": ""
+  },
+  "1.4.3.3": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1433.zip",
+    "sha256": ""
+  },
+  "1.4.3.2": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1432.zip",
+    "sha256": ""
+  },
+  "1.4.3.1": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1431.zip",
+    "sha256": ""
+  },
+  "1.4.3": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-143.zip",
+    "sha256": ""
+  },
+  "1.4.2.3": {
+    "url": "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1423.zip",
+    "sha256": ""
+  },
+  "1.1.2": {
+    "url": "https://terraria.org/extra/terraria-server-112.zip",
+    "sha256": ""
+  },
+  "1.0.6.1": {
+    "url": "https://terraria.org/extra/terraria-server-1061.zip",
+    "sha256": ""
+  }
+}
