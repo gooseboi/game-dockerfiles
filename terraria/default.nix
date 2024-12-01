@@ -1,11 +1,14 @@
-{ pkgs, isNow ? false }:
-  let
-    lib = pkgs.lib;
-    versions = lib.importJSON ./versions.json;
-    builder = import ./builder.nix;
-    escapeVersion = builtins.replaceStrings [ "." ] [ "" ];
+{
+  pkgs,
+  isNow ? false,
+}: let
+  lib = pkgs.lib;
+  versions = lib.importJSON ./versions.json;
+  builder = import ./builder.nix;
+  escapeVersion = builtins.replaceStrings ["."] [""];
 
-    packages = lib.mapAttrs'
+  packages =
+    lib.mapAttrs'
     (version: value: {
       name = "terraria${escapeVersion version}";
       value = builder {
@@ -15,5 +18,5 @@
       };
     })
     versions;
-  in
+in
   packages

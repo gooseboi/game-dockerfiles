@@ -1,11 +1,14 @@
-{ pkgs, isNow ? false }:
-  let
-    lib = pkgs.lib;
-    versions = lib.importJSON ./versions.json;
-    builder = import ./builder.nix;
-    escapeVersion = builtins.replaceStrings [ "." ] [ "_" ];
+{
+  pkgs,
+  isNow ? false,
+}: let
+  lib = pkgs.lib;
+  versions = lib.importJSON ./versions.json;
+  builder = import ./builder.nix;
+  escapeVersion = builtins.replaceStrings ["."] ["_"];
 
-    packages = lib.mapAttrs'
+  packages =
+    lib.mapAttrs'
     (version: value: {
       name = "vanilla${escapeVersion version}";
       value = builder {
@@ -18,5 +21,5 @@
       };
     })
     versions;
-  in
+in
   packages
