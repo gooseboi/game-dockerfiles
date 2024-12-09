@@ -30,6 +30,7 @@
             dawncraft = forgeBundledImage ./mc/modded/dawncraft;
             bmc4 = forgeBundledImage ./mc/modded/bettermc_4;
             bmc4Patch = forgeBundledImage ./mc/modded/bettermc_4_patch;
+            divineJourney2 = forgeBundledImage ./mc/modded/divine_journey_2;
           }
           // vanillaImages
           // terrariaImages;
